@@ -2360,20 +2360,18 @@ TyphlosionEvosAttacks:
 	db 0 ; no more level-up moves
 
 TotodileEvosAttacks:
+	db EVOLVE_LEVEL, 18, CROCONAW
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, LEER
-	db 1, ANCIENTPOWER
 	db 7, WATER_GUN
 	db 12, RAGE
-	db 18, BITE
-	db 24, BUBBLEBEAM
+	db 21, BITE
 	db 28, SCARY_FACE
-	db 32, DRAGONBREATH
 	db 37, SLASH
 	db 45, SCREECH
-	db 50, CRUNCH
-	db 55, OCTAZOOKA
+	db 50, HYDRO_PUMP
+	db 55, CRUNCH
 	db 0 ; no more level-up moves
 
 CroconawEvosAttacks:
