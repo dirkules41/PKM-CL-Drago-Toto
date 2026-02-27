@@ -32,10 +32,10 @@ jobs:
       run: |
         make clean
         make
-        mv pokecrystal.gbc "PKM CL Totodile Special Vx.x.gbc"
+        mv pokecrystal.gbc "PKM CL Mew Edition Vx.x.gbc"
 
     - name: 📦 Upload ROM Artifact
       uses: actions/upload-artifact@v4
       with:
-        name: PKM-CL-TOTODILE-SPC-ROM
+        name: PKM-CL-MEW-ROM
         path: '*.gbc'
